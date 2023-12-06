@@ -21,7 +21,8 @@
   }
 
   .topic-post:nth-of-type(3n) .post-avatar a::after {
-    transform: scaleX(-1) rotate(5deg) translateX(-8px);
+    //scaleX(-1)
+    transform:  rotate(5deg) translateX(-8px);
   }
 
   .topic-post:nth-of-type(5n) .post-avatar a::after {
