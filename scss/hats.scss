@@ -22,7 +22,7 @@
 
   .topic-post:nth-of-type(3n) .post-avatar a::after {
     //scaleX(-1)
-    transform:  rotate(5deg) translateX(6px);
+    transform:  rotate(5deg) translateX(3px);
   }
 
   .topic-post:nth-of-type(5n) .post-avatar a::after {
