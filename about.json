@@ -5,6 +5,7 @@
   "author": "Meghna",
   "assets": {
     "hat": "assets/hat.png",
+    "tree": "assets/tree.png",
     "decoration": "assets/christmas-decoration.png"
   },
   "component": true
