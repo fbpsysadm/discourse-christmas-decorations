@@ -16,11 +16,12 @@
           background: transparent url($house) top left no-repeat;
         } @else if $decoration_image == "gifts" {
           background: transparent url($gifts) top left no-repeat;
-        } @else if $hat_decoration_imagetype == "bells" {
+        } @else if $decoration_image == "bells" {
           background: transparent url($bells) top left no-repeat;
         } @else if $decoration_image == "bauble" {
           background: transparent url($bauble) top left no-repeat;
         }
+
         background-size: contain;
         z-index: -1;
         // filter: invert(get_invert($decoration-invert-color));
