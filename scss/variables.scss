@@ -7,14 +7,3 @@
   @return 0
 }
 
-@function get_hat_url($option){
-  @if $option == "red-hat1"{
-    @return $red-hat1
-  } @else if $option == "reindeer" {
-    @return $reindeer
-  }
-}
-
-@function get_decoration_url($option){
-  @return "assets/decorations/" + $option + ".png"
-}
