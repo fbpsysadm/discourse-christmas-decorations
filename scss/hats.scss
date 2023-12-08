@@ -48,7 +48,15 @@
       left: -5px;
       width: 32px;
       height: 24px;
-      background: url(get_hat_url($hat_type)) no-repeat center;
+
+      @if $hat_type == "red-hat1" {
+        background: url($red-hat1) no-repeat center;  
+      } @else if $hat_type == "red-hat2" {
+        background: url($red-hat2) no-repeat center;  
+      } @else if $hat_type == "reindeer" {
+        background: url($reindeer) no-repeat center;  
+      }      
+
       background-size: contain;
     }
   }
@@ -70,7 +78,13 @@
       left: -10px;
       width: 45px;
       height: 45px;
-      background: url(get_hat_url($hat_type)) no-repeat center;
+      @if $hat_type == "red-hat1" {
+        background: url($red-hat1) no-repeat center;  
+      } @else if $hat_type == "red-hat2" {
+        background: url($red-hat2) no-repeat center;  
+      } @else if $hat_type == "reindeer" {
+        background: url($reindeer) no-repeat center;  
+      }
       background-size: contain;
     }
   }
@@ -83,7 +97,13 @@
     left: -5px;
     width: 80%;
     height: 80%;
-    background: url(get_hat_url($hat_type)) no-repeat center;
+    @if $hat_type == "red-hat1" {
+      background: url($red-hat1) no-repeat center;  
+    } @else if $hat_type == "red-hat2" {
+      background: url($red-hat2) no-repeat center;  
+    } @else if $hat_type == "reindeer" {
+      background: url($reindeer) no-repeat center;  
+    }
     background-size: contain;
   }
 }
