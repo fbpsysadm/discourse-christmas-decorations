@@ -9,7 +9,6 @@
         height: 150px;
         position: absolute;
         // background: transparent url($decoration) top left no-repeat;
-
         @if $decoration_image == "tree" {
           background: transparent url($tree) top left no-repeat;
         } @else if $decoration_image == "house" {
@@ -21,7 +20,6 @@
         } @else if $decoration_image == "bauble" {
           background: transparent url($bauble) top left no-repeat;
         }
-
         background-size: contain;
         z-index: -1;
         // filter: invert(get_invert($decoration-invert-color));
