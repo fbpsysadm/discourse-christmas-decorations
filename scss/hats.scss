@@ -15,6 +15,8 @@
     
     @if $hat_type == "red-hat1" {
       background: url($red-hat1) no-repeat center;  
+    } @else if $hat_type == "red-hat2" {
+      background: url($red-hat2) no-repeat center;  
     } @else if $hat_type == "reindeer" {
       background: url($reindeer) no-repeat center;  
     }

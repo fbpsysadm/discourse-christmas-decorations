@@ -5,12 +5,14 @@
   "author": "Meghna",
   "assets": {
     "red-hat1": "assets/hats/red-hat1.png",
+    "red-hat2": "assets/hats/red-hat2.png",
     "reindeer": "assets/hats/reindeer.png",
     "tree": "assets/decorations/tree.png",
     "bells": "assets/decorations/bells.png",
     "bells-bw": "assets/decorations/bells-bw.png",
     "gifts": "assets/decorations/gifts.png",
-    "house": "assets/decorations/house.png"
+    "house": "assets/decorations/house.png",
+    "bauble": "assets/decorations/bauble.png"
   },
   "component": true
 }
