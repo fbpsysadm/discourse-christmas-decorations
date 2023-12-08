@@ -4,9 +4,13 @@
   "license_url": "https://github.com/MeghnaAJ/discourse-christmas-decorations/blob/master/LICENSE",
   "author": "Meghna",
   "assets": {
-    "hat": "assets/hat.png",
-    "tree": "assets/tree.png",
-    "decoration": "assets/christmas-decoration.png"
+    "red-hat1": "assets/hats/red-hat1.png",
+    "reindeer": "assets/hats/reindeer.png",
+    "tree": "assets/decorations/tree.png",
+    "bells": "assets/decorations/bells.png",
+    "bells-bw": "assets/decorations/bells-bw.png",
+    "gift": "assets/decorations/gift.png",
+    "house": "assets/decorations/house.png"
   },
   "component": true
 }

@@ -6,9 +6,28 @@ enable_hats:
   default: true
   description: "Show hat on avatars?"
 
+hat_type:
+  default: red-hat1
+  type: enum
+  choices:
+    - red-hat1
+    - reindeer
+  description: "hat type"
+
 enable_decoration_image:
   default: true
   description: "Show decoration image?"
+
+decoration_image:
+  default: tree
+  type: enum
+  choices:
+    - tree
+    - gifts
+    - bells
+    - bauble
+    - house
+  description: "decoration image on the side"
 
 decoration_invert_color:
   default: false
