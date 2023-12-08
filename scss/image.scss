@@ -9,8 +9,8 @@
         height: 150px;
         position: absolute;
         // background: transparent url($decoration) top left no-repeat;
-        // background: transparent url($tree) top left no-repeat;
-        background: transparent url(get_decoration_url($decoration_image)) top left no-repeat;
+        background: transparent url($tree) top left no-repeat;
+        // background: transparent url(get_decoration_url($decoration_image)) top left no-repeat;
         background-size: contain;
         z-index: -1;
         // filter: invert(get_invert($decoration-invert-color));
