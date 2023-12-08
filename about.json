@@ -9,7 +9,7 @@
     "tree": "assets/decorations/tree.png",
     "bells": "assets/decorations/bells.png",
     "bells-bw": "assets/decorations/bells-bw.png",
-    "gift": "assets/decorations/gift.png",
+    "gifts: "assets/decorations/gifts.png",
     "house": "assets/decorations/house.png"
   },
   "component": true

@@ -10,20 +10,17 @@
         position: absolute;
         // background: transparent url($decoration) top left no-repeat;
 
-        @if $hat_type == "tree" {
+        @if $decoration_image == "tree" {
           background: transparent url($tree) top left no-repeat;
-        } @else if $hat_type == "house" {
+        } @else if $decoration_image == "house" {
           background: transparent url($house) top left no-repeat;
-        } @else if $hat_type == "gifts" {
+        } @else if $decoration_image == "gifts" {
           background: transparent url($gifts) top left no-repeat;
-        } @else if $hat_type == "bells" {
+        } @else if $hat_decoration_imagetype == "bells" {
           background: transparent url($bells) top left no-repeat;
-        } @else if $hat_type == "bauble" {
+        } @else if $decoration_image == "bauble" {
           background: transparent url($bauble) top left no-repeat;
         }
-
-        background: transparent url($tree) top left no-repeat;
-        // background: transparent url(get_decoration_url($decoration_image)) top left no-repeat;
         background-size: contain;
         z-index: -1;
         // filter: invert(get_invert($decoration-invert-color));
