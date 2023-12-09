@@ -19,16 +19,28 @@
           background: transparent url($bells-bw) top left no-repeat;
         } @else if $decoration_image == "bells" {
           background: transparent url($bells) top left no-repeat;
+        } @else if $decoration_image == "boot1" {
+          background: transparent url($boot1) top left no-repeat;
         } @else if $decoration_image == "gifts" {
           background: transparent url($gifts) top left no-repeat;
         } @else if $decoration_image == "house" {
           background: transparent url($house) top left no-repeat;
         } @else if $decoration_image == "mistletoe" {
           background: transparent url($mistletoe) top left no-repeat;
+        } @else if $decoration_image == "owl1" {
+          background: transparent url($owl1) top left no-repeat;
+        } @else if $decoration_image == "owl2" {
+          background: transparent url($owl2) top left no-repeat;
         } @else if $decoration_image == "snowman" {
           background: transparent url($snowman) top left no-repeat;
+        } @else if $decoration_image == "squirrel1" {
+          background: transparent url($squirrel1) top left no-repeat;
+        } @else if $decoration_image == "squirrel2" {
+          background: transparent url($squirrel2) top left no-repeat;
         } @else if $decoration_image == "tree" {
           background: transparent url($tree) top left no-repeat;
+        } @else if $decoration_image == "tree2" {
+          background: transparent url($tree2) top left no-repeat;
         }
         background-size: contain;
         z-index: -1;

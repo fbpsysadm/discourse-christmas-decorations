@@ -30,12 +30,18 @@ decoration_image:
     - bauble-with-tree
     - bauble-z-line        
     - bells-bw
-    - bells        
+    - bells    
+    - boot1    
     - gifts
     - house
     - mistletoe
+    - owl1
+    - owl2
     - snowman
+    - squirrel1
+    - squirrel2
     - tree
+    - tree2
   description: "decoration image on the side"
 
 decoration_invert_color:
