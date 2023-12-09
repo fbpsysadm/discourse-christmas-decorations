@@ -17,9 +17,13 @@
       background: url($red-hat1) no-repeat center;  
     } @else if $hat_type == "red-hat2" {
       background: url($red-hat2) no-repeat center;  
+    } @else if $hat_type == "red-hat3" {
+      background: url($red-hat3) no-repeat center;  
+    } @else if $hat_type == "red-hat4" {
+      background: url($red-hat4) no-repeat center;  
     } @else if $hat_type == "reindeer" {
       background: url($reindeer) no-repeat center;  
-    } @else if $hat_type == "santa" {
+    } @else if $hat_type == "santa"  {
       background: url($santa) no-repeat center;        
     }
 
@@ -55,6 +59,10 @@
         background: url($red-hat1) no-repeat center;  
       } @else if $hat_type == "red-hat2" {
         background: url($red-hat2) no-repeat center;  
+      } @else if $hat_type == "red-hat3" {
+        background: url($red-hat3) no-repeat center;  
+      } @else if $hat_type == "red-hat4" {
+        background: url($red-hat4) no-repeat center;   
       } @else if $hat_type == "reindeer" {
         background: url($reindeer) no-repeat center;  
       } @else if $hat_type == "santa" {
@@ -86,6 +94,10 @@
         background: url($red-hat1) no-repeat center;  
       } @else if $hat_type == "red-hat2" {
         background: url($red-hat2) no-repeat center;  
+      } @else if $hat_type == "red-hat3" {
+        background: url($red-hat3) no-repeat center;  
+      } @else if $hat_type == "red-hat4" {
+        background: url($red-hat4) no-repeat center;  
       } @else if $hat_type == "reindeer" {
         background: url($reindeer) no-repeat center;  
       } @else if $hat_type == "santa" {
@@ -107,6 +119,10 @@
       background: url($red-hat1) no-repeat center;  
     } @else if $hat_type == "red-hat2" {
       background: url($red-hat2) no-repeat center;  
+    } @else if $hat_type == "red-hat3" {
+      background: url($red-hat3) no-repeat center;  
+    } @else if $hat_type == "red-hat4" {
+      background: url($red-hat4) no-repeat center;  
     } @else if $hat_type == "reindeer" {
       background: url($reindeer) no-repeat center;  
     } @else if $hat_type == "santa" {
