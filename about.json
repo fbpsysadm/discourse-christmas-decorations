@@ -7,12 +7,16 @@
     "red-hat1": "assets/hats/red-hat1.png",
     "red-hat2": "assets/hats/red-hat2.png",
     "reindeer": "assets/hats/reindeer.png",
-    "tree": "assets/decorations/tree.png",
-    "bells": "assets/decorations/bells.png",
+    "bauble-two": "assets/decorations/bauble-two.png",
+    "bauble-with-tree": "assets/decorations/bauble-with-tree.png",
+    "bauble-z-line": "assets/decorations/bauble-z-line.png",
+    "mistletoe": "assets/decorations/mistletoe.png",
     "bells-bw": "assets/decorations/bells-bw.png",
     "gifts": "assets/decorations/gifts.png",
+    "bells": "assets/decorations/bells.png",
     "house": "assets/decorations/house.png",
-    "bauble": "assets/decorations/bauble.png"
+    "tree": "assets/decorations/tree.png",
+    "snowman": "assets/decorations/snowman.png"
   },
   "component": true
 }

@@ -9,20 +9,30 @@
         height: 150px;
         position: absolute;
         // background: transparent url($decoration) top left no-repeat;
-        @if $decoration_image == "tree" {
-          background: transparent url($tree) top left no-repeat;
-        } @else if $decoration_image == "house" {
-          background: transparent url($house) top left no-repeat;
-        } @else if $decoration_image == "gifts" {
-          background: transparent url($gifts) top left no-repeat;
+        @if $decoration_image == "bauble-two" {
+          background: transparent url($bauble-two) top left no-repeat;
+        } @else if $decoration_image == "bauble-with-tree" {
+          background: transparent url($bauble-with-tree) top left no-repeat;
+        } @else if $decoration_image == "bauble-z-line" {
+          background: transparent url($bauble-z-line) top left no-repeat;
+        } @else if $decoration_image == "bells-bw" {
+          background: transparent url($bells-bw) top left no-repeat;
         } @else if $decoration_image == "bells" {
           background: transparent url($bells) top left no-repeat;
-        } @else if $decoration_image == "bauble" {
-          background: transparent url($bauble) top left no-repeat;
+        } @else if $decoration_image == "gifts" {
+          background: transparent url($gifts) top left no-repeat;
+        } @else if $decoration_image == "house" {
+          background: transparent url($house) top left no-repeat;
+        } @else if $decoration_image == "mistletoe" {
+          background: transparent url($mistletoe) top left no-repeat;
+        } @else if $decoration_image == "snowman" {
+          background: transparent url($snowman) top left no-repeat;
+        } @else if $decoration_image == "tree" {
+          background: transparent url($tree) top left no-repeat;
         }
         background-size: contain;
         z-index: -1;
-        // filter: invert(get_invert($decoration-invert-color));
+        filter: invert(get_invert($decoration-invert-color));
       }
       &:after {
         right: 0;

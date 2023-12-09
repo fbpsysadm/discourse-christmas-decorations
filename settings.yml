@@ -23,11 +23,16 @@ decoration_image:
   default: tree
   type: enum
   choices:
-    - tree
+    - bauble-two
+    - bauble-with-tree
+    - bauble-z-line        
+    - bells-bw
+    - bells        
     - gifts
-    - bells
-    - bauble
     - house
+    - mistletoe
+    - snowman
+    - tree
   description: "decoration image on the side"
 
 decoration_invert_color:
