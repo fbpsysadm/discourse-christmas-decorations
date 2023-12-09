@@ -13,6 +13,7 @@ hat_type:
     - red-hat1
     - red-hat2
     - reindeer
+    - santa
   description: "hat type"
 
 enable_decoration_image:

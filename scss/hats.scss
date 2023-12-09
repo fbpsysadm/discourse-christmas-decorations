@@ -84,6 +84,8 @@
         background: url($red-hat2) no-repeat center;  
       } @else if $hat_type == "reindeer" {
         background: url($reindeer) no-repeat center;  
+      } @else if $hat_type == "santa" {
+        background: url($santa) no-repeat center;          
       }
       background-size: contain;
     }
