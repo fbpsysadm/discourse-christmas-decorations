@@ -14,13 +14,21 @@
     "bauble-two": "assets/decorations/bauble-two.png",
     "bauble-with-tree": "assets/decorations/bauble-with-tree.png",
     "bauble-z-line": "assets/decorations/bauble-z-line.png",
-    "mistletoe": "assets/decorations/mistletoe.png",
     "bells-bw": "assets/decorations/bells-bw.png",
+    "bells": "assets/decorations/bells.png",    
+    "boot1": "assets/decorations/boot1.png",    
     "gifts": "assets/decorations/gifts.png",
-    "bells": "assets/decorations/bells.png",
+    "hedgehog1": "assets/decorations/hedgehog1.png",
+    "hedgehog2": "assets/decorations/hedgehog2.png",
     "house": "assets/decorations/house.png",
+    "mistletoe": "assets/decorations/mistletoe.png",
+    "owl1": "assets/decorations/owl1.png",
+    "owl2": "assets/decorations/owl2.png",
+    "snowman": "assets/decorations/snowman.png",
+    "squirrel1": "assets/decorations/squirrel1.png",    
+    "squirrel2": "assets/decorations/squirrel2.png",
     "tree": "assets/decorations/tree.png",
-    "snowman": "assets/decorations/snowman.png"
+    "tree2": "assets/decorations/tree2.png"
   },
   "component": true
 }
