@@ -5,14 +5,7 @@
     position: relative;
   }
 
-  .topic-avatar .post-avatar a::after {
-    content: "";
-    position: absolute;
-    top: -62%;
-    left: -27%;
-    width: 130%;
-    height: 100%;
-    
+  .hat-image {
     @if $hat_type == "red-hat1" {
       background: url($red-hat1) no-repeat center;  
     } @else if $hat_type == "red-hat2" {
@@ -25,8 +18,17 @@
       background: url($reindeer) no-repeat center;  
     } @else if $hat_type == "santa"  {
       background: url($santa) no-repeat center;        
-    }
+    }    
+  }
 
+  .topic-avatar .post-avatar a::after {
+    @extend .hat-image;
+    content: "";
+    position: absolute;
+    top: -62%;
+    left: -27%;
+    width: 130%;
+    height: 100%;
     background-size: contain;
   }
 
@@ -48,27 +50,13 @@
       position: relative;
     }
     .posters > a.latest::after {
+      @extend .hat-image;      
       content: "";
       position: absolute;
       top: -14px;
       left: -7px;
       width: 32px;
       height: 24px;
-
-      @if $hat_type == "red-hat1" {
-        background: url($red-hat1) no-repeat center;  
-      } @else if $hat_type == "red-hat2" {
-        background: url($red-hat2) no-repeat center;  
-      } @else if $hat_type == "red-hat3" {
-        background: url($red-hat3) no-repeat center;  
-      } @else if $hat_type == "red-hat4" {
-        background: url($red-hat4) no-repeat center;   
-      } @else if $hat_type == "reindeer" {
-        background: url($reindeer) no-repeat center;  
-      } @else if $hat_type == "santa" {
-        background: url($santa) no-repeat center;          
-      }      
-
       background-size: contain;
     }
   }
@@ -83,6 +71,7 @@
       position: relative;
     }
     & > div::after {
+      @extend .hat-image;
       content: "";
       position: absolute;
       display: block;
@@ -90,24 +79,12 @@
       left: -10px;
       width: 45px;
       height: 45px;
-      @if $hat_type == "red-hat1" {
-        background: url($red-hat1) no-repeat center;  
-      } @else if $hat_type == "red-hat2" {
-        background: url($red-hat2) no-repeat center;  
-      } @else if $hat_type == "red-hat3" {
-        background: url($red-hat3) no-repeat center;  
-      } @else if $hat_type == "red-hat4" {
-        background: url($red-hat4) no-repeat center;  
-      } @else if $hat_type == "reindeer" {
-        background: url($reindeer) no-repeat center;  
-      } @else if $hat_type == "santa" {
-        background: url($santa) no-repeat center;          
-      }
       background-size: contain;
     }
   }
 
   .latest-topic-list-item .topic-poster > a::after {
+    @extend .hat-image;
     content: "";
     position: absolute;
     display: block;
@@ -115,19 +92,6 @@
     left: -5px;
     width: 80%;
     height: 80%;
-    @if $hat_type == "red-hat1" {
-      background: url($red-hat1) no-repeat center;  
-    } @else if $hat_type == "red-hat2" {
-      background: url($red-hat2) no-repeat center;  
-    } @else if $hat_type == "red-hat3" {
-      background: url($red-hat3) no-repeat center;  
-    } @else if $hat_type == "red-hat4" {
-      background: url($red-hat4) no-repeat center;  
-    } @else if $hat_type == "reindeer" {
-      background: url($reindeer) no-repeat center;  
-    } @else if $hat_type == "santa" {
-      background: url($santa) no-repeat center;        
-    }
     background-size: contain;
   }
 }
