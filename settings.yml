@@ -12,6 +12,8 @@ hat_type:
   choices:
     - red-hat1
     - red-hat2
+    - red-hat3
+    - red-hat4        
     - reindeer
     - santa
   description: "hat type"
