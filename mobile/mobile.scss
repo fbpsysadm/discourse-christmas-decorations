@@ -1,0 +1,13 @@
+$globe-width:   12px;
+$globe-height:  28px;
+$globe-spacing: 40px;
+$globe-spread: 3px;
+$light-off-opacity: 0.4;
+$speed: 0.5;
+
+.deng-box-mobile {
+    position: fixed;
+    top: 80px;
+    left: -40px;
+    z-index: 1999;
+}
