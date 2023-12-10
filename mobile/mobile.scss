@@ -5,6 +5,7 @@
     left: 40px;
     width: 150px;
     height: 150px;
-    background: url($tree3) top left no-repeat;
+    background-image: url($tree3);
+    background-size: cover;
     z-index: 1999;
 }
