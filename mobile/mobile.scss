@@ -1,12 +1,8 @@
 
-:root {
-    --screen-height: 0;
-}
-
   
 .tree {
     position: fixed;
-    bottom: calc(var(--screen-height) * 0.75);
+    bottom: -500px;
     left: 40px;
     width: 100px;
     height: 150px;
