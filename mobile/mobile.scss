@@ -6,7 +6,46 @@
     left: 40px;
     width: 100px;
     height: 150px;
-    background-image: url($tree3);
+    // background-image: url($tree3);
+
+    @if $decoration_image == "bauble-two" {
+        background-image: transparent url($bauble-two);
+      } @else if $decoration_image == "bauble-with-tree" {
+        background-image: transparent url($bauble-with-tree) ;
+      } @else if $decoration_image == "bauble-z-line" {
+        background-image: transparent url($bauble-z-line) ;
+      } @else if $decoration_image == "bells-bw" {
+        background-image: transparent url($bells-bw) ;
+      } @else if $decoration_image == "bells" {
+        background-image: transparent url($bells) ;
+      } @else if $decoration_image == "boot1" {
+        background-image: transparent url($boot1) ;
+      } @else if $decoration_image == "gifts" {
+        background-image: transparent url($gifts) ;
+      } @else if $decoration_image == "house" {
+        background-image: transparent url($house) ;
+      } @else if $decoration_image == "mistletoe" {
+        background-image: transparent url($mistletoe) ;
+      } @else if $decoration_image == "owl1" {
+        background-image: transparent url($owl1) ;
+      } @else if $decoration_image == "owl2" {
+        background-image: transparent url($owl2) ;
+      } @else if $decoration_image == "snowman" {
+        background-image: transparent url($snowman) ;
+      } @else if $decoration_image == "squirrel1" {
+        background-image: transparent url($squirrel1) ;
+      } @else if $decoration_image == "squirrel2" {
+        background-image: transparent url($squirrel2) ;
+      } @else if $decoration_image == "tree" {
+        background-image: transparent url($tree) ;
+      } @else if $decoration_image == "tree2" {
+        background-image: transparent url($tree2) ;
+      } @else if $decoration_image == "tree3" {
+        background-image: transparent url($tree3) ;
+      } @else if $decoration_image == "tree4" {
+        background-image: transparent url($tree4) ;          
+      }
+
     background-size: contain;
     // background-position: center center;
     background-repeat: no-repeat;
