@@ -42,6 +42,8 @@ decoration_image:
     - squirrel2
     - tree
     - tree2
+    - tree3
+    - tree4    
   description: "decoration image on the side"
 
 decoration_invert_color:
