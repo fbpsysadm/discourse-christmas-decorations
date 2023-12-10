@@ -28,7 +28,9 @@
     "squirrel1": "assets/decorations/squirrel1.jpg",    
     "squirrel2": "assets/decorations/squirrel2.jpg",
     "tree": "assets/decorations/tree.png",
-    "tree2": "assets/decorations/tree2.png"
+    "tree2": "assets/decorations/tree2.png",
+    "tree3": "assets/decorations/tree3.png",
+    "tree4": "assets/decorations/tree4.jpeg"    
   },
   "component": true
 }

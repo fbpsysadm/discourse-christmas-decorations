@@ -41,6 +41,10 @@
           background: transparent url($tree) top left no-repeat;
         } @else if $decoration_image == "tree2" {
           background: transparent url($tree2) top left no-repeat;
+        } @else if $decoration_image == "tree3" {
+          background: transparent url($tree3) top left no-repeat;
+        } @else if $decoration_image == "tree4" {
+          background: transparent url($tree4) top left no-repeat;          
         }
         background-size: contain;
         z-index: -1;
