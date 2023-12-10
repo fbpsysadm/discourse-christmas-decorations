@@ -5,45 +5,7 @@
     left: 40px;
     width: 100px;
     height: 150px;
-
-    @if $decoration_image == "bauble-two" {
-        background-image: transparent url($bauble-two) top left no-repeat;
-    } @else if $decoration_image == "bauble-with-tree" {
-        background-image: transparent url($bauble-with-tree) top left no-repeat;
-    } @else if $decoration_image == "bauble-z-line" {
-        background-image: transparent url($bauble-z-line) top left no-repeat;
-    } @else if $decoration_image == "bells-bw" {
-        background-image: transparent url($bells-bw) top left no-repeat;
-    } @else if $decoration_image == "bells" {
-        background-image: transparent url($bells) top left no-repeat;
-    } @else if $decoration_image == "boot1" {
-        background-image: transparent url($boot1) top left no-repeat;
-    } @else if $decoration_image == "gifts" {
-        background-image: transparent url($gifts) top left no-repeat;
-    } @else if $decoration_image == "house" {
-        background-image: transparent url($house) top left no-repeat;
-    } @else if $decoration_image == "mistletoe" {
-        background-image: transparent url($mistletoe) top left no-repeat;
-    } @else if $decoration_image == "owl1" {
-        background-image: transparent url($owl1) top left no-repeat;
-    } @else if $decoration_image == "owl2" {
-        background-image: transparent url($owl2) top left no-repeat;
-    } @else if $decoration_image == "snowman" {
-        background-image: transparent url($snowman) top left no-repeat;
-    } @else if $decoration_image == "squirrel1" {
-        background-image: transparent url($squirrel1) top left no-repeat;
-    } @else if $decoration_image == "squirrel2" {
-        background-image: transparent url($squirrel2) top left no-repeat;
-    } @else if $decoration_image == "tree" {
-        background-image: transparent url($tree) top left no-repeat;
-    } @else if $decoration_image == "tree2" {
-        background-image: transparent url($tree2) top left no-repeat;
-    } @else if $decoration_image == "tree3" {
-        background-image: transparent url($tree3) top left no-repeat;
-    } @else if $decoration_image == "tree4" {
-        background-image: transparent url($tree4) top left no-repeat;          
-    }
-
+    background-image: url($tree3) no-repeat;
     background-size: contain;
     background-position: center center;
     z-index: 1999;
