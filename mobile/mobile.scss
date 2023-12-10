@@ -2,15 +2,15 @@
   
 .tree {
     position: fixed;
-    top: -100px;
+    top: 400px;
     left: 40px;
     width: 100px;
     height: 150px;
     background-image: url($tree3);
     background-size: contain;
-    background-position: center center;
+    // background-position: center center;
     background-repeat: no-repeat;
-    padding-bottom: 100%;
+    // padding-bottom: 100%;
     z-index: 1999;
 }
 
