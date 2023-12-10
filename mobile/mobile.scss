@@ -1,13 +1,8 @@
-$globe-width:   12px;
-$globe-height:  28px;
-$globe-spacing: 40px;
-$globe-spread: 3px;
-$light-off-opacity: 0.4;
-$speed: 0.5;
 
-.deng-box-mobile {
+.tree {
     position: fixed;
-    top: 80px;
-    left: -40px;
+    bottom: 40px;
+    left: 40px;
+    background: url($tree3) top left no-repeat;
     z-index: 1999;
 }
