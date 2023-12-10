@@ -6,6 +6,8 @@
     width: 150px;
     height: 150px;
     background-image: url($tree3);
-    background-size: cover;
+    background-size: contain;
+    background-position: center center;
+    padding-bottom: 100%;
     z-index: 1999;
 }
