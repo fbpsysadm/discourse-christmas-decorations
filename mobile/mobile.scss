@@ -1,7 +1,7 @@
 
 .tree {
     position: fixed;
-    bottom: -500px;
+    bottom: calc(var(--screen-height) * 0.75);
     left: 40px;
     width: 100px;
     height: 150px;
@@ -13,9 +13,3 @@
     z-index: 1999;
 }
 
-.tipic-list-body {
-    background-image: url($tree3);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
