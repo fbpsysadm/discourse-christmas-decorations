@@ -16,6 +16,19 @@
         background-image: url($bauble-z-line) ;
       } @else if $decoration_image == "bells-bw" {
         background-image: url($bells-bw) ;
+
+      } @else if $decoration_image == "ball1" {
+        background: url($ball1);
+      } @else if $decoration_image == "ball2" {
+        background: url($ball2);
+      } @else if $decoration_image == "ball3" {
+        background: url($ball3);
+      } @else if $decoration_image == "candy-cane" {
+        background: url($candy-cane);
+      } @else if $decoration_image == "santa" {
+        background: url($santa)t;
+      } @else if $decoration_image == "tree-gift" {
+        background: url($tree-gift);   
       } @else if $decoration_image == "bells" {
         background-image: url($bells);
       } @else if $decoration_image == "gifts" {

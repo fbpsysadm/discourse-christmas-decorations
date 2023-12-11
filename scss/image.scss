@@ -17,6 +17,18 @@
           background: transparent url($bauble-z-line) top left no-repeat;
         } @else if $decoration_image == "bells-bw" {
           background: transparent url($bells-bw) top left no-repeat;
+        } @else if $decoration_image == "ball1" {
+          background: transparent url($ball1) top left no-repeat;
+        } @else if $decoration_image == "ball2" {
+          background: transparent url($ball2) top left no-repeat;
+        } @else if $decoration_image == "ball3" {
+          background: transparent url($ball3) top left no-repeat;
+        } @else if $decoration_image == "candy-cane" {
+          background: transparent url($candy-cane) top left no-repeat;
+        } @else if $decoration_image == "santa" {
+          background: transparent url($santa) top left no-repeat;
+        } @else if $decoration_image == "tree-gift" {
+          background: transparent url($tree-gift) top left no-repeat;   
         } @else if $decoration_image == "bells" {
           background: transparent url($bells) top left no-repeat;
         } @else if $decoration_image == "gifts" {
@@ -45,6 +57,8 @@
           background: transparent url($tree3) top left no-repeat;
         } @else if $decoration_image == "tree4" {
           background: transparent url($tree4) top left no-repeat;          
+        } @else if $decoration_image == "tree-gift" {
+          background: transparent url($tree-gift) top left no-repeat;          
         }
         background-size: contain;
         z-index: -1;
