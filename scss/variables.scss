@@ -7,3 +7,6 @@
   @return 0
 }
 
+@function get_image($name){
+  @return "assets/decorations/" + $name + ".png"
+}
