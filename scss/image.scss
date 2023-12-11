@@ -19,8 +19,6 @@
           background: transparent url($bells-bw) top left no-repeat;
         } @else if $decoration_image == "bells" {
           background: transparent url($bells) top left no-repeat;
-        } @else if $decoration_image == "boot1" {
-          background: transparent url($boot1) top left no-repeat;
         } @else if $decoration_image == "gifts" {
           background: transparent url($gifts) top left no-repeat;
         } @else if $decoration_image == "house" {
@@ -33,6 +31,8 @@
           background: transparent url($owl2) top left no-repeat;
         } @else if $decoration_image == "snowman" {
           background: transparent url($snowman) top left no-repeat;
+        } @else if $decoration_image == "stocking" {
+          background: transparent url($stocking) top left no-repeat;
         } @else if $decoration_image == "squirrel1" {
           background: transparent url($squirrel1) top left no-repeat;
         } @else if $decoration_image == "squirrel2" {
