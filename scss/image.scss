@@ -33,8 +33,12 @@
           background: transparent url($bells) top left no-repeat;
         } @else if $decoration_image == "gifts" {
           background: transparent url($gifts) top left no-repeat;
+        } @else if $decoration_image == "hedgehog1" {
+          background: transparent url($hedgehog1) top left no-repeat;
+        } @else if $decoration_image == "hedgehog2" {
+          background: transparent url($hedgehog2) top left no-repeat;
         } @else if $decoration_image == "house" {
-          background: transparent url($house) top left no-repeat;
+          background: transparent url($house) top left no-repeat;          
         } @else if $decoration_image == "mistletoe" {
           background: transparent url($mistletoe) top left no-repeat;
         } @else if $decoration_image == "owl1" {
