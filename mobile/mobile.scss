@@ -20,6 +20,10 @@
         background-image: url($bells);
       } @else if $decoration_image == "gifts" {
         background-image: url($gifts);
+      } @else if $decoration_image == "hedgehog1" {
+        background-image: url($hedgehog1);
+      } @else if $decoration_image == "hedgehog2" {
+        background-image: url($hedgehog2);      
       } @else if $decoration_image == "house" {
         background-image: url($house);
       } @else if $decoration_image == "mistletoe" {
