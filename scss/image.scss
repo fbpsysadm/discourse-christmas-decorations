@@ -8,7 +8,7 @@
         width: 150px;
         height: 150px;
         position: absolute;
-        background: transparent url($#{$decoration_image}) top left no-repeat;
+        background: transparent url(${#{$decoration_image}}) top left no-repeat;
         // background: transparent url($decoration_image) top left no-repeat;
         background-size: contain;
         z-index: -1;
