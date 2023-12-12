@@ -8,6 +8,7 @@
     height: 150px;
     // background-image: url($tree3);
 
+    
     @if $decoration_image == "bauble-two" {
         background-image: url($bauble-two);
       } @else if $decoration_image == "bauble-with-tree" {
@@ -16,7 +17,6 @@
         background-image: url($bauble-z-line) ;
       } @else if $decoration_image == "bells-bw" {
         background-image: url($bells-bw) ;
-
       } @else if $decoration_image == "ball1" {
         background: url($ball1);
       } @else if $decoration_image == "ball2" {
@@ -26,7 +26,7 @@
       } @else if $decoration_image == "candy-cane" {
         background: url($candy-cane);
       } @else if $decoration_image == "santa" {
-        background: url($santa)t;
+        background: url($santa);
       } @else if $decoration_image == "tree-gift" {
         background: url($tree-gift);   
       } @else if $decoration_image == "bells" {
@@ -61,7 +61,10 @@
         background-image: url($tree3);
       } @else if $decoration_image == "tree4" {
         background-image: url($tree4);          
+      } @else if $decoration_image == "tree-gift" {
+        background: url($tree-gift);          
       }
+
 
     background-size: contain;
     // background-position: center center;
