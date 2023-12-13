@@ -33,17 +33,15 @@
   }
 
   .topic-post:nth-of-type(2n) .post-avatar a::after {
-    transform: rotate(10deg) translateX(5px);
+    transform: rotate(-5deg) translateX(-4px);
   }
 
   .topic-post:nth-of-type(3n) .post-avatar a::after {
-    transform: scaleX(-1);
-    left: 2px;
-    // transform:  rotate(5deg) translateX(3px);
+    transform: scaleX(-1) rotate(5deg) translateX(-8px);
   }
 
   .topic-post:nth-of-type(5n) .post-avatar a::after {
-    transform: rotate(5deg) translateX(1px);
+    transform: rotate(5deg) translateX(4px);
   }
 
   .topic-list {
