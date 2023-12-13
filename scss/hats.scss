@@ -37,7 +37,7 @@
   }
 
   .topic-post:nth-of-type(3n) .post-avatar a::after {
-    //scaleX(-1)
+    transform: scaleX(-1);
     transform:  rotate(5deg) translateX(3px);
   }
 
@@ -54,7 +54,7 @@
       content: "";
       position: absolute;
       top: -14px;
-      left: -7px;
+      left: -8px;
       width: 32px;
       height: 24px;
       background-size: contain;
