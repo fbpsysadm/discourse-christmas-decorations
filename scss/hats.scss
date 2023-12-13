@@ -37,7 +37,7 @@
   }
 
   .topic-post:nth-of-type(3n) .post-avatar a::after {
-    transform: scaleX(-1);
+    transform: scaleX(-1) translateX(5px);
     // transform:  rotate(5deg) translateX(3px);
   }
 
