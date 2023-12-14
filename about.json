@@ -35,7 +35,9 @@
     "tree2": "assets/decorations/tree2.png",
     "tree3": "assets/decorations/tree3.png",
     "tree4": "assets/decorations/tree4.png",
-    "tree-gift": "assets/decorations/tree-gift.png"    
+    "tree-gift": "assets/decorations/tree-gift.png",   
+    
+    "merry-christmas-hohoho": "assets/merry-christmas-hohoho.mp3"
   },
   "component": true
 }
