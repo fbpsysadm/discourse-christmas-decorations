@@ -51,6 +51,8 @@ decoration_image:
     - tree2
     - tree3
     - tree4
+    - tree5
+    - tree6        
     - tree-gift    
   description: "decoration image on the side"
 

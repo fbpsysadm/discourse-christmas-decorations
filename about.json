@@ -7,7 +7,7 @@
     "red-hat1": "assets/hats/red-hat1.png",
     "red-hat2": "assets/hats/red-hat2.png",
     "red-hat3": "assets/hats/red-hat3.png",
-    "red-hat4": "assets/hats/red-hat4.png",    
+    "red-hat4": "assets/hats/red-hat4.png",  
     "reindeer": "assets/hats/reindeer.png",
 
     "ball1": "assets/decorations/ball1.png",
@@ -35,6 +35,8 @@
     "tree2": "assets/decorations/tree2.png",
     "tree3": "assets/decorations/tree3.png",
     "tree4": "assets/decorations/tree4.png",
+    "tree5": "assets/decorations/tree5.gif",
+    "tree6": "assets/decorations/tree6.gif",
     "tree-gift": "assets/decorations/tree-gift.png"    
   },
   "component": true
