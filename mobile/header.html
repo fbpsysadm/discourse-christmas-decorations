@@ -1,2 +1,12 @@
-<div class="tree">
-</div>
+<div class="tree" id="play-button"></div>
+<audio id="audio-player" src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3"></audio>
+
+<script>
+  const audio = document.getElementById('audio-player');
+  function playMp3() {
+    alert("hello");
+    audio.play();
+  }
+  const playButton = document.getElementById('play-button');
+  playButton.addEventListener('click', playMp3);
+</script>
