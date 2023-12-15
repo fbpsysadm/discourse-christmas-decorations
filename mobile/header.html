@@ -6,10 +6,21 @@
 
 <script>
   const audio = document.getElementById('audio-player');
+
   function playMp3() {
-    // alert("hello");
+    const random = Math.floor(Math.random() * 3) + 1;
+    if (random === 1) {
+       audio.src = "https://www.freeblueplanet.com/uploads/db9860/original/3X/2/5/2583606bbb35f70a1386a17e4e4b8c916f1f1aed.mp3";
+    } else if (random === 2) {
+      audio.src = "https://www.freeblueplanet.com/uploads/db9860/original/3X/6/5/656a1ddf0fbbf056bcb20dcbc7abfe988f41a5fa.mp3";
+    } else {
+      audio.src = "https://www.freeblueplanet.com/uploads/db9860/original/3X/e/e/ee66c8077b8b24cb1f60a4b8dfe8a9bd1a066412.mp3";
+    }
+    
+    audio.load();
     audio.play();
   }
+  
   const playButton = document.getElementById('play-button');
   playButton.addEventListener('click', playMp3);
 </script>
