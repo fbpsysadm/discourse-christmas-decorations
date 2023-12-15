@@ -10,3 +10,5 @@
 @function get_image($name){
   @return "assets/decorations/" + $name + ".png"
 }
+
+$music: url(settings.theme_uploads)
