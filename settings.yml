@@ -6,6 +6,10 @@ enable_hats:
   default: true
   description: "Show hat on avatars?"
 
+enable_image_on_mobile:
+  default: true
+  description: "Show image on mobile screen ?"
+
 hat_type:
   default: red-hat1
   type: enum
