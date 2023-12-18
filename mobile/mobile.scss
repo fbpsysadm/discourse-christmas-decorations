@@ -1,15 +1,16 @@
 
-  
-.tree {
-    position: fixed;
-    top: 220px;
-    right: 10px;
-    width: 50px;
-    height: 75px;
-    // background-image: url($tree3);
+@if $enable_image_on_mobile == "true" {
 
+  .tree {
+      position: fixed;
+      top: 220px;
+      right: 10px;
+      width: 50px;
+      height: 75px;
+      // background-image: url($tree3);
     
-    @if $decoration_image == "bauble-two" {
+
+      @if $decoration_image == "bauble-two" {
         background-image: url($bauble-two);
       } @else if $decoration_image == "bauble-with-tree" {
         background-image: url($bauble-with-tree) ;
@@ -69,11 +70,12 @@
         background: url($tree-gift);          
       }
 
+      background-size: contain;
+      // background-position: center center;
+      background-repeat: no-repeat;
+      // padding-bottom: 100%;
+      z-index: 1999;
+  }
 
-    background-size: contain;
-    // background-position: center center;
-    background-repeat: no-repeat;
-    // padding-bottom: 100%;
-    z-index: 1999;
 }
 
