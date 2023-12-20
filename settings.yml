@@ -58,6 +58,8 @@ decoration_image:
     - tree5
     - tree6        
     - tree-gift    
+    - dongzhi1
+    - dongzhi2
   description: "decoration image on the side"
 
 decoration_invert_color:
