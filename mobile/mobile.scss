@@ -67,7 +67,15 @@
       } @else if $decoration_image == "tree6" {
         background-image: url($tree6);          
       } @else if $decoration_image == "tree-gift" {
-        background: url($tree-gift);          
+        background: url($tree-gift);   
+      } @else if $decoration_image == "dongzhi1" {
+        background: url($dongzhi1);          
+      } @else if $decoration_image == "dongzhi2" {
+        background: url($dongzhi2);     
+      } @else if $decoration_image == "dongzhi3" {
+        background: url($dongzhi3);     
+      } @else if $decoration_image == "dongzhi4" {
+        background: url($dongzhi4);           
       }
 
       background-size: contain;
