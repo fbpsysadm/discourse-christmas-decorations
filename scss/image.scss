@@ -67,6 +67,10 @@
           background: transparent url($tree6) top left no-repeat;          
         } @else if $decoration_image == "tree-gift" {
           background: transparent url($tree-gift) top left no-repeat;          
+        } @else if $decoration_image == "dongzhi1" {
+          background: transparent url($dongzhi1) top left no-repeat;          
+        } @else if $decoration_image == "dongzhi2" {
+          background: transparent url($dongzhi2) top left no-repeat;          
         }
         background-size: contain;
         z-index: -1;

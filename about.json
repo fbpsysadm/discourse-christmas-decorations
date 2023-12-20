@@ -37,7 +37,9 @@
     "tree4": "assets/decorations/tree4.png",
     "tree5": "assets/decorations/tree5.gif",
     "tree6": "assets/decorations/tree6.gif",
-    "tree-gift": "assets/decorations/tree-gift.png"    
+    "tree-gift": "assets/decorations/tree-gift.png",
+    "dongzhi1": "assets/decorations/dongzhi1.png",
+    "dongzhi2": "assets/decorations/dongzhi2.png"
   },
   "component": true
 }
