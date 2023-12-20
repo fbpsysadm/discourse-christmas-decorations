@@ -67,3 +67,7 @@ decoration_image:
 decoration_invert_color:
   default: false
   description: "Invert decoration image color? Enable this on dark theme."
+
+decoration_mirror:
+  default: true
+  description: "mirror the image on the side?"

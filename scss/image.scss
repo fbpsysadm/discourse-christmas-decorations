@@ -82,7 +82,7 @@
       }
       &:after {
         right: 0;
-        @if (str-index($decoration_image, "dongzhi") == null) {
+        @if ($decoration_mirror == "true") {
           transform: scaleX(-1);
         }
       }
