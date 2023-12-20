@@ -70,7 +70,11 @@
         } @else if $decoration_image == "dongzhi1" {
           background: transparent url($dongzhi1) top left no-repeat;          
         } @else if $decoration_image == "dongzhi2" {
-          background: transparent url($dongzhi2) top left no-repeat;          
+          background: transparent url($dongzhi2) top left no-repeat;     
+        } @else if $decoration_image == "dongzhi3" {
+          background: transparent url($dongzhi3) top left no-repeat;     
+        } @else if $decoration_image == "dongzhi4" {
+          background: transparent url($dongzhi4) top left no-repeat;                              
         }
         background-size: contain;
         z-index: -1;
@@ -78,7 +82,9 @@
       }
       &:after {
         right: 0;
-        transform: scaleX(-1);
+        @if (str-index($decoration_image, "dongzhi") == null) {
+          transform: scaleX(-1);
+        }
       }
     }
   }
