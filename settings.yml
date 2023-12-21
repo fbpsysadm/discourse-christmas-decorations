@@ -62,6 +62,7 @@ decoration_image:
     - dongzhi2
     - dongzhi3
     - dongzhi4
+    - dongzhikuaile
   description: "decoration image on the side"
 
 decoration_invert_color:

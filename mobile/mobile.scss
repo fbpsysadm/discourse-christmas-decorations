@@ -76,6 +76,8 @@
         background: url($dongzhi3);     
       } @else if $decoration_image == "dongzhi4" {
         background: url($dongzhi4);           
+      } @else if $decoration_image == "dongzhikuaile" {
+        background: url($dongzhikuaile);           
       }
 
       background-size: contain;

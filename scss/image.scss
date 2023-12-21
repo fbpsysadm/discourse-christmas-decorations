@@ -75,6 +75,8 @@
           background: transparent url($dongzhi3) top left no-repeat;     
         } @else if $decoration_image == "dongzhi4" {
           background: transparent url($dongzhi4) top left no-repeat;                              
+        } @else if $decoration_image == "dongzhikuaile" {
+          background: transparent url($dongzhikuaile) top left no-repeat;                              
         }
         background-size: contain;
         z-index: -1;

@@ -41,7 +41,8 @@
     "dongzhi1": "assets/decorations/dongzhi1.png",
     "dongzhi2": "assets/decorations/dongzhi2.png",
     "dongzhi3": "assets/decorations/dongzhi3.png",
-    "dongzhi4": "assets/decorations/dongzhi4.png"
+    "dongzhi4": "assets/decorations/dongzhi4.png",
+    "dongzhikuaile": "assets/decorations/dongzhikuaile.png"
   },
   "component": true
 }
