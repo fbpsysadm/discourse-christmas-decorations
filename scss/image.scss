@@ -76,6 +76,7 @@
         } @else if $decoration_image == "dongzhi4" {
           background: transparent url($dongzhi4) top left no-repeat;                              
         } @else if $decoration_image == "dongzhikuaile" {
+          height: 450px;
           background: transparent url($dongzhikuaile) top left no-repeat;                              
         }
         background-size: contain;
