@@ -1,0 +1,91 @@
+
+@if $enable_image_on_mobile == "true" {
+
+  .tree {
+      position: fixed;
+      top: 220px;
+      right: 10px;
+      width: 50px;
+      height: 75px;
+      // background-image: url($tree3);
+    
+
+      @if $decoration_image == "bauble-two" {
+        background-image: url($bauble-two);
+      } @else if $decoration_image == "bauble-with-tree" {
+        background-image: url($bauble-with-tree) ;
+      } @else if $decoration_image == "bauble-z-line" {
+        background-image: url($bauble-z-line) ;
+      } @else if $decoration_image == "bells-bw" {
+        background-image: url($bells-bw) ;
+      } @else if $decoration_image == "ball1" {
+        background: url($ball1);
+      } @else if $decoration_image == "ball2" {
+        background: url($ball2);
+      } @else if $decoration_image == "ball3" {
+        background: url($ball3);
+      } @else if $decoration_image == "candy-cane" {
+        background: url($candy-cane);
+      } @else if $decoration_image == "santa" {
+        background: url($santa);
+      } @else if $decoration_image == "tree-gift" {
+        background: url($tree-gift);   
+      } @else if $decoration_image == "bells" {
+        background-image: url($bells);
+      } @else if $decoration_image == "gifts" {
+        background-image: url($gifts);
+      } @else if $decoration_image == "hedgehog1" {
+        background-image: url($hedgehog1);
+      } @else if $decoration_image == "hedgehog2" {
+        background-image: url($hedgehog2);      
+      } @else if $decoration_image == "house" {
+        background-image: url($house);
+      } @else if $decoration_image == "mistletoe" {
+        background-image: url($mistletoe);
+      } @else if $decoration_image == "owl1" {
+        background-image: url($owl1);
+      } @else if $decoration_image == "owl2" {
+        background-image: url($owl2);
+      } @else if $decoration_image == "snowman" {
+        background-image: url($snowman);
+      } @else if $decoration_image == "stocking" {
+        background-image: url($stocking);
+      } @else if $decoration_image == "squirrel1" {
+        background-image: url($squirrel1);
+      } @else if $decoration_image == "squirrel2" {
+        background-image: url($squirrel2);
+      } @else if $decoration_image == "tree" {
+        background-image: url($tree);
+      } @else if $decoration_image == "tree2" {
+        background-image: url($tree2);
+      } @else if $decoration_image == "tree3" {
+        background-image: url($tree3);
+      } @else if $decoration_image == "tree4" {
+        background-image: url($tree4);          
+      } @else if $decoration_image == "tree5" {
+        background-image: url($tree5);          
+      } @else if $decoration_image == "tree6" {
+        background-image: url($tree6);          
+      } @else if $decoration_image == "tree-gift" {
+        background: url($tree-gift);   
+      } @else if $decoration_image == "dongzhi1" {
+        background: url($dongzhi1);          
+      } @else if $decoration_image == "dongzhi2" {
+        background: url($dongzhi2);     
+      } @else if $decoration_image == "dongzhi3" {
+        background: url($dongzhi3);     
+      } @else if $decoration_image == "dongzhi4" {
+        background: url($dongzhi4);           
+      } @else if $decoration_image == "dongzhikuaile" {
+        background: url($dongzhikuaile);           
+      }
+
+      background-size: contain;
+      // background-position: center center;
+      background-repeat: no-repeat;
+      // padding-bottom: 100%;
+      z-index: 1999;
+  }
+
+}
+

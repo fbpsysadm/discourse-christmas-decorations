@@ -6,10 +6,69 @@ enable_hats:
   default: true
   description: "Show hat on avatars?"
 
+enable_image_on_mobile:
+  default: true
+  description: "Show image on mobile screen ?"
+
+hat_type:
+  default: red-hat1
+  type: enum
+  choices:
+    - red-hat1
+    - red-hat2
+    - red-hat3
+    - red-hat4        
+    - reindeer
+    - santa
+  description: "hat type"
+
 enable_decoration_image:
   default: true
   description: "Show decoration image?"
 
+decoration_image:
+  default: tree
+  type: enum
+  choices:
+    - ball1
+    - ball2
+    - ball3
+    - bauble-two
+    - bauble-with-tree
+    - bauble-z-line        
+    - bells-bw
+    - bells
+    - candy-cane    
+    - gifts
+    - hedgehog1    
+    - hedgehog2    
+    - house
+    - mistletoe
+    - owl1
+    - owl2
+    - santa
+    - snowman
+    - stocking
+    - squirrel1
+    - squirrel2
+    - tree
+    - tree2
+    - tree3
+    - tree4
+    - tree5
+    - tree6        
+    - tree-gift    
+    - dongzhi1
+    - dongzhi2
+    - dongzhi3
+    - dongzhi4
+    - dongzhikuaile
+  description: "decoration image on the side"
+
 decoration_invert_color:
   default: false
   description: "Invert decoration image color? Enable this on dark theme."
+
+decoration_mirror:
+  default: true
+  description: "mirror the image on the side?"

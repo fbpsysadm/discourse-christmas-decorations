@@ -4,18 +4,90 @@
       &:before, &:after {
         content: "";
         display: block;
-        top: 6em;
+        top: 12em;
         width: 150px;
         height: 150px;
         position: absolute;
-        background: transparent url($decoration) top left no-repeat;
+        // background: transparent url($decoration) top left no-repeat;
+        @if $decoration_image == "bauble-two" {
+          background: transparent url($bauble-two) top left no-repeat;
+        } @else if $decoration_image == "bauble-with-tree" {
+          background: transparent url($bauble-with-tree) top left no-repeat;
+        } @else if $decoration_image == "bauble-z-line" {
+          background: transparent url($bauble-z-line) top left no-repeat;
+        } @else if $decoration_image == "bells-bw" {
+          background: transparent url($bells-bw) top left no-repeat;
+        } @else if $decoration_image == "ball1" {
+          background: transparent url($ball1) top left no-repeat;
+        } @else if $decoration_image == "ball2" {
+          background: transparent url($ball2) top left no-repeat;
+        } @else if $decoration_image == "ball3" {
+          background: transparent url($ball3) top left no-repeat;
+        } @else if $decoration_image == "candy-cane" {
+          background: transparent url($candy-cane) top left no-repeat;
+        } @else if $decoration_image == "santa" {
+          background: transparent url($santa) top left no-repeat;
+        } @else if $decoration_image == "tree-gift" {
+          background: transparent url($tree-gift) top left no-repeat;   
+        } @else if $decoration_image == "bells" {
+          background: transparent url($bells) top left no-repeat;
+        } @else if $decoration_image == "gifts" {
+          background: transparent url($gifts) top left no-repeat;
+        } @else if $decoration_image == "hedgehog1" {
+          background: transparent url($hedgehog1) top left no-repeat;
+        } @else if $decoration_image == "hedgehog2" {
+          background: transparent url($hedgehog2) top left no-repeat;
+        } @else if $decoration_image == "house" {
+          background: transparent url($house) top left no-repeat;          
+        } @else if $decoration_image == "mistletoe" {
+          background: transparent url($mistletoe) top left no-repeat;
+        } @else if $decoration_image == "owl1" {
+          background: transparent url($owl1) top left no-repeat;
+        } @else if $decoration_image == "owl2" {
+          background: transparent url($owl2) top left no-repeat;
+        } @else if $decoration_image == "snowman" {
+          background: transparent url($snowman) top left no-repeat;
+        } @else if $decoration_image == "stocking" {
+          background: transparent url($stocking) top left no-repeat;
+        } @else if $decoration_image == "squirrel1" {
+          background: transparent url($squirrel1) top left no-repeat;
+        } @else if $decoration_image == "squirrel2" {
+          background: transparent url($squirrel2) top left no-repeat;
+        } @else if $decoration_image == "tree" {
+          background: transparent url($tree) top left no-repeat;
+        } @else if $decoration_image == "tree2" {
+          background: transparent url($tree2) top left no-repeat;
+        } @else if $decoration_image == "tree3" {
+          background: transparent url($tree3) top left no-repeat;
+        } @else if $decoration_image == "tree4" {
+          background: transparent url($tree4) top left no-repeat;          
+        } @else if $decoration_image == "tree5" {
+          background: transparent url($tree5) top left no-repeat;          
+        } @else if $decoration_image == "tree6" {
+          background: transparent url($tree6) top left no-repeat;          
+        } @else if $decoration_image == "tree-gift" {
+          background: transparent url($tree-gift) top left no-repeat;          
+        } @else if $decoration_image == "dongzhi1" {
+          background: transparent url($dongzhi1) top left no-repeat;          
+        } @else if $decoration_image == "dongzhi2" {
+          background: transparent url($dongzhi2) top left no-repeat;     
+        } @else if $decoration_image == "dongzhi3" {
+          background: transparent url($dongzhi3) top left no-repeat;     
+        } @else if $decoration_image == "dongzhi4" {
+          background: transparent url($dongzhi4) top left no-repeat;                              
+        } @else if $decoration_image == "dongzhikuaile" {
+          height: 450px;
+          background: transparent url($dongzhikuaile) top left no-repeat;                              
+        }
         background-size: contain;
         z-index: -1;
         filter: invert(get_invert($decoration-invert-color));
       }
       &:after {
         right: 0;
-        transform: scaleX(-1);
+        @if ($decoration_mirror == "true") {
+          transform: scaleX(-1);
+        }
       }
     }
   }
